@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: black;
+  background-size: cover;
+  color: white;
+}
+
+header .fw-bolder {
+  font-size: 3rem;
+}
+
+header .lead {
+  font-size: 1.5rem;
+}
+
+/* Blog Post Styles */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #eaff00;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ea1e1e;
+}
+
+/* Sidebar Styles */
+.card-header {
+  background-color: #343a40;
+  color: white;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+/* Pagination Styles */
+.pagination .page-link {
+  color: #eeff00;
+}
+
+.pagination .page-link:hover {
+  color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header .fw-bolder {
+      font-size: 2rem;
+  }
+
+  header .lead {
+      font-size: 1.2rem;
+  }
+}
